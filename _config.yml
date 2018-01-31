@@ -1,0 +1,84 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Bolt
+email:
+description: Bolt is a secure and anonymous cryptocurrency, built with a focus on privacy.
+url: "https://boltcurrency.com" # the base hostname & protocol for your site, e.g. http://example.com
+enforce_ssl: https://boltcurrency.com
+twitter_username: boltcurrency
+github_username:  boltcurrency
+twitter:
+  username: boltcurrency
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+paginate_path: "blog/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-paginate
+  - jekyll-seo-tag
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+# Blog settings
+
+# Lang settings
+default_lang: 'en'
+langs:
+  'ar': 'العربية'
+  'da': 'Dansk'
+  'de': 'Deutsch'
+  'en': 'English'
+  'es': 'Español'
+  'fr': 'Français'
+  'it': 'Italiano'
+  'ja': '日本語'
+  'pl': 'Polski'
+  'ko': '한국의'
+  'nl': 'Nederlands'
+  'pt': 'Português'
+  'ro': 'Română'
+  'ru': 'Русский'
+  'zh_CN': '简体中文'
+  'zh_TW': '繁體中文'
+lang_codes:
+  - 'en'
+  - 'es'
+  - 'zh_CN'
+  - 'ko'
+  - 'nl'
+  - 'ja'
+  - 'pl'
+  - 'da'
+  - 'pt'
+  - 'zh_TW'
+  - 'ru'
+  - 'fr'
+  - 'it'
+  - 'de'
+  - 'ar'
+  - 'ro'
+faq_lang_codes:
+  - 'en'
+  - 'ko'
+  - 'de'
+  - 'ru'
+  - 'zh_CN'

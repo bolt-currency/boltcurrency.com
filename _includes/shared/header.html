@@ -1,0 +1,45 @@
+{% assign basePath = '' %}
+{% assign depth = page.url | split: '/' | size | minus: 1 %}
+{% if    depth == 0 %}{% assign basePath = '.' %}
+{% elsif depth == 1 %}{% assign basePath = '..' %}
+{% endif %}
+
+{% if depth == -1 or depth == 1 and page.lang == site.default_lang %}{% assign linkPath = basePath %}
+{% else %}{% capture linkPath %}{{ basePath }}/langs/{{page.lang}}{% endcapture %}
+{% endif %}
+
+{% assign langCodes = site.lang_codes %}
+{% if pageLangCodes %}{% assign langCodes = pageLangCodes %}
+{% endif %}
+
+<!-- header -->
+
+<header id="mk-header" class="transparent-header light-header-skin sticky-header  boxed-header header-align-left header-structure-standard put-header-top theme-main-header mk-header-module"  >
+  <div class="mk-grid">
+     <nav id="mk-main-navigation" role="navigation" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" >
+        <ul id="menu-home" class="main-navigation-ul">
+           <li class="responsive-nav-link">
+              <div class="mk-burger-icon">
+                 <div class="burger-icon-1"></div>
+                 <div class="burger-icon-2"></div>
+                 <div class="burger-icon-3"></div>
+              </div>
+           </li>
+           <li class="mk-header-logo mobile-menu-exists "><a href="./" title="Bolt Currency"><img alt="Bolt Currency" class="mk-dark-logo" src="/assets/img/logo.png" data-retina-src="" /><img alt="Bolt Currency" class="mk-mobile-logo" src="/assets/img/logo.png" data-retina-src="" /><img alt="Bolt Currency" class="mk-light-logo" src="/assets/img/logo.png" /></a></li>
+           <li class="menu-item"><a class="menu-item-link"  href="#home">{{langPath.nav.home.title | default: defaultLangPath.nav.home.title}}</a></li>
+           <li class="menu-item"><a class="menu-item-link"  href="#about">{{langPath.nav.about.title | default: defaultLangPath.nav.about.title}}</a></li>
+           <li class="menu-item"><a class="menu-item-link"  href="#specifications">{{langPath.nav.specifications.title | default: defaultLangPath.nav.specifications.title}}</a></li>
+           <li class="menu-item"><a class="menu-item-link"  href="#wallets">{{langPath.nav.wallets.title | default: defaultLangPath.nav.wallets.title}}</a></li>
+           <li class="menu-item"><a class="menu-item-link"  href="#roadmap">{{langPath.nav.roadmap.title | default: defaultLangPath.nav.roadmap.title}}</a></li>
+           <li class="menu-item"><a class="menu-item-link"  href="#faq">{{langPath.nav.faq.title | default: defaultLangPath.nav.faq.title}}</a></li>
+           <!--<li id="menu-item-126" class="menu-item menu-item-type-post_type menu-item-object-page no-mega-menu"><a class="menu-item-link"  href="./blog/">Blog</a></li>-->
+         	
+
+            {% include shared/multilangdropdown.html %}
+
+           <li class="mk-header-social inside-grid"></li>
+        </ul>
+     </nav>
+  </div>
+</header>
+<div class="responsive-nav-container"></div>

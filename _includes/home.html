@@ -1,0 +1,19 @@
+{% assign pageName = '' %}
+{% assign langPath = site.data.langs[page.lang] %}
+{% assign defaultLangPath = site.data.langs.en %}
+{% include head.html %}
+
+<body class="home page-template-default page page-id-27 wpb-js-composer js-comp-ver-5.1.1 vc_responsive" itemscope="itemscope" itemtype="https://schema.org/WebPage">
+  <div class="theme-main-wrapper ">
+    <div id="home" class="page-section-1  expandable-false fullwidth-true section-expandable-false full-height-true  mk-video-holder mk-page-section parallax-true  " data-direction="vertical">
+        {% include home/banner.html %}
+        {% include home/about.html %}
+        {% include home/specifications.html %}
+        {% include home/wallets.html %}
+        {% include home/roadmap.html %}
+        {% include home/faq.html %}
+        {% include shared/footer.html %}
+      </div>
+  </div>
+</body>
+<script>

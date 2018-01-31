@@ -1,0 +1,245 @@
+{
+  "lang_name": "English",
+  "head": {
+    "meta": {
+      "description": "BOLT (BOLT) is a safe, instant and private cryptocurrency."
+    },
+    "title": "BOLT (BOLT) is a safe, instant and private cryptocurrency."
+  },
+  "nav": {
+    "home": {
+      "title": "Home"
+    },
+    "about": {
+      "title": "About"
+    },
+    "specifications": {
+      "title": "Specifications"
+    },
+    "wallets": {
+      "title": "Wallets"
+    },
+    "roadmap": {
+      "title": "Roadmap"
+    },
+    "faq": {
+      "title": "FAQ"
+    },
+    "exchanges": {
+      "title": "Get Bolt"
+    },
+    "p2p": {
+      "title": "P2P"
+    },
+    "developers": {
+      "title": "Developers"
+    },
+    "contributors": {
+      "title": "Contributors"
+    },
+    "blog": {
+      "title": "Blog"
+    },
+    "getBolt": {
+      "title": "Get Bolt"
+    },
+    "buy": {
+      "title": "Buy Bolt"
+    },
+    "accept": {
+      "title": "Accept Bolt"
+    },
+    "contrib": {
+      "title": "Contribute"
+    },
+    "startMining": {
+      "title": "Start Mining"
+    },
+    "setMasternode": {
+      "title": "Setup a Masternode"
+    },
+    "setWallet": {
+      "title": "Setup a Wallet"
+    },
+    "comunnity": {
+      "title": "Community"
+    },
+    "multilang": {
+      "portuguese": "Português",
+      "title1": "Troque o idioma para Português",
+      "english": "English",
+      "title2": "Change to English"
+    }
+  },
+  "banner": {
+    "subtitle": "A revolutionary digital currency!",
+    "tagline": "Instant. Private. For all.",
+    "button1": "Baixar Wallet Windows 64bit",
+    "button2": "Go to Downloads"
+  },
+  "about": {
+    "title": "The Community",
+    "paragraph": "BOLT has as its main objective the disruption, using Blockchain to make the access of any investor or company in a totally decentralized and globalized way, practically and without bureaucracy.",
+    "paragraph1": "Our cryptocurrency was developed from Litecoin's core (LTC) and we are moving towards becoming independent in the future, with rewritten and improved code. At the moment, Bolt has some solutions such as “Instant Send“, “Private Send“ and “Lightweight Protocol Network“, which aims to keep your network scalable, secure and anti-DDOS.",
+    "title1": "Made for you",
+    "paragraph2": "Join our community in a decentralized P2P network, investors make the rules! We encourage POW (Proof of Work) miners to protect BlockChain in addition to the masternodes to validate, store and serve the blockchain for users, keeping our network decentralized and making decisions to make our currency stronger."
+  },
+  "specifications": {
+    "title": "Fair distribution",
+    "paragraph1": "Our cryptocurrency has the focus on the community giving everyone the opportunity to participate in the project, so we do not make any Premine of the currency, we do not inflate the starting blocks and we do not do any ICO, we want a lasting and stable currency.",
+    "options": {
+      "transaction": {
+        "title": "Instant Transactions",
+        "description": "Currently very fast, with blocks of only 60 sec and NO waiting time for confirmations."
+      },
+      "fee": {
+        "title": "Low Fees",
+        "description": "Thinking about the future! With our currency, you can even buy that coffee."
+      },
+      "anon": {
+        "title": "Anonnymous Transactions",
+        "description": "Extremely secure and private, your transactions are really anonymous."
+      }
+    },
+    "mining": {
+      "algorithm": {
+        "title": "Algorithm",
+        "value": "Blake-256 (14r)"
+      },
+      "maxSupply": {
+        "title": "Max. Supply",
+        "value": "21M"
+      },
+      "blockTime": {
+        "title": "Block Time",
+        "value": "1 min."
+      },
+      "miningSystem": {
+        "title": "Mining System",
+        "value": "55% PoW and 45% PoS"
+      },
+      "consensus": {
+        "title": "Consensus",
+        "value": "OnChain"
+      },
+      "halving": {
+        "title": "Halving",
+        "value": "Every 40,000 blocks"
+      }
+    }
+  },
+  "wallets": {
+    "title": "Wallets",
+    "bannerUrl" : "/assets/img/background-wallet.png",
+    "subtitle": "Your wallet is the software you use to send, receive, and store Bolt.",
+    "subtitle1": "It is simple to use and all submissions are anonymous and secure.",
+    "subtitle2": "Installer",
+    "callToText": "Download Windows Wallet!",
+    "callToText1": "Download Linux Wallet!",
+    "callToText2": "Download Mac Wallet!"
+  },
+  "roadmap": {
+    "title": "Roadmap",
+    "subtitle": "Our projects to the future!",
+    "subtitle1": "Coming Soon.",
+
+    "item" : {
+      "title": "White Paper v1.0",
+      "description": "Everything you need to know about Bolt and Bolt Foundation.",
+      "release" : "Q1, 2018: Jan - Mar"
+    },
+    "item1" : {
+      "title": "Roadmap detailed",
+      "description": "We will soon be launching the detailed 2018 year-round roadmap, along with turn-key planning and other technologies.",
+      "release" : "Q1, 2018: Jan - Mar"
+    },
+    "item2" : {
+      "title": "Paper Wallet",
+      "description": "Launch of Bolt's Official Paper Wallet. Store your Bolts safely anywhere.",
+      "release" : "Q1, 2018: Jan - Mar"
+    },
+    "item3" : {
+      "title": "Mining Pool - Official",
+      "description": "Launch of Bolt's official Mining Pool, with a fee to support the project.",
+      "release" : "Q1, 2018: Jan - Mar"
+    },
+    "item4" : {
+      "title": "Core Wallet 1.0 RC - QT",
+      "description": "Private Addressing and Tor intergration (optional)",
+      "release" : "Q2, 2018: May - Jul"
+    },
+    "item5" : {
+      "title": "Core Wallet 1.0 - Final Release",
+      "description": "Fully Rebranding of the Wallet UI, new and developed using Angular 2, with new features that the Wallet QT will not have. The Wallet QT will be discontinued.",
+      "release" : "Q2, 2018: May - Jul"
+    }
+  },
+  "faq": {
+    "title": "FAQ",
+    "subtitle": "Let's help you how to use BOLT",
+    "item": {
+      "title": "Overview",
+      "value": "Bolt is a multi-platform digital currency with wallets available for Windows, MacOS, and Linux. Its main goal is the disruption, using the Blockchain to make the access to investors or any company much easier, allowing anyone to send, receive, and mine with just a few clicks, changing how we use our money in a daily basis."
+    },
+    "item1": {
+      "title": "The Basics",
+      "paragraph": "There are three main ways to join our community:",
+      "paragraph1": "The Wallet – To send and receive funds, and to setup your Masternode in the network.",
+      "paragraph2": "Proof of Work Mining – Using hash power to validate transactions and create new coins.",
+      "paragraph3": "Proof of Stake Mining – Being a Masternode: validating, protecting, and helping the community voting for the project decitions - and earning BOLT for this.",
+      "paragraph4": ""
+    },
+    "item2": {
+      "title": "The Wallets",
+      "paragraph": "A new Web Wallet is coming soon, making your life easier.",
+      "paragraph1": "Wallets for Windows, MacOS and Linux → Available here for download.",
+      "paragraph2": "",
+      "paragraph3": "",
+      "paragraph4": ""
+    },
+    "item3": {
+      "title": "Sending and Receiving BOLT",
+      "paragraph": "An address is the only thing you need to send or receive the funds. You can get an address using any of the wallets available for download. The BOLT's addresses start always with BT.",
+      "paragraph1": "Your funds will become available just after you make the transfer. Our system allows you to receive your funds immediately for almost no fee.",
+      "paragraph2": "The Block Explorer inside the wallet allows you to explore the blocks and the transactions in our Blockchain.",
+      "paragraph3": "",
+      "paragraph4": ""
+    },
+    "item4": {
+      "title": "Mining",
+      "paragraph": "The term mining means to validate the transactions and to keep it safe. Miners get coins as a reward for find and validate the blocks.",
+      "paragraph1": "Bolt has two different ways to validate a transaction: Proof-of-work (PoW) and Proof-of-stake (PoS).",
+      "paragraph2": "Proof-of-work Mining",
+      "paragraph3": "In the Proof-of-work (PoW) mining, the transactions are grouped by blocks. These blocks are validated by the PoW miners. When a block is found, it becomes part of the network.",
+      "paragraph4": "In order to be a PoW miner, you need to dedicate hash power to the network. Because of this hash power, you get BOLT as a reward.",
+      "paragraph5": "To be more efficient, miners usually join a mining pool. A pool is a group of miners working together to find a block. It increases your chance of finding a block. When the pool finds a block, the reward is split with all miners of that pool.",
+      "paragraph6": "Proof-of-stake Masternodes Mining",
+      "paragraph7": "Unlike PoW mining, the Proof-of-stake (PoS) mining requires much fewer computer power. The PoS adds an extra layer to the network, allowing the users to become Masternodes (something like a shareholder of a company). To become a Masternode you just need 1000 BOLTs in your wallet and follow the guide → <b>how to set up a masternode</b>. Being a Masternode allows you to be part of the network, voting for the project decisions and to receive rewards for this.",
+      "paragraph8": ""
+    },
+    "item5": {
+      "title": "Buy and Sell BOLT",
+      "paragraph": "We are new and, for now, we are not available in exchanges. We are working hard to add BOLT to exchanges as soon as possible.",
+      "paragraph1": "",
+      "paragraph2": "",
+      "paragraph3": "",
+      "paragraph4": ""
+    },
+    "item6": {
+      "title": "Join the community",
+      "paragraph": "Be part of the community! The stakeholders decide the future of the project. We give rewards for the PoW miners, for helping us to protect the blockchain, and to the masternodes, helping the network to be decentralized and voting for the project decisions, making our coin even stronger. Join our Telegram group and our channel on Discord. Talk to the developers and to the project managers. Ask any question you might have. We are here to help you. We are also available on Facebook and Twitter as well. Come and join us!",
+      "paragraph1": "",
+      "paragraph2": "",
+      "paragraph3": "",
+      "paragraph4": ""
+    },
+    "item7": {
+      "title": "Plans for the future",
+      "paragraph": "Coming soon.",
+      "paragraph1": "",
+      "paragraph2": "",
+      "paragraph3": "",
+      "paragraph4": ""
+    }
+  }
+}

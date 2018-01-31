@@ -1,0 +1,245 @@
+{
+  "lang_name": "Português",
+  "head": {
+    "meta": {
+      "description": "BOLT (BOLT) é uma criptomoeda segura, instantânea e privada."
+    },
+    "title": "BOLT (BOLT) é uma criptomoeda segura, instantânea e privada."
+  },
+  "nav": {
+    "home": {
+      "title": "Início"
+    },
+    "about": {
+      "title": "Sobre"
+    },
+    "specifications": {
+      "title": "Especificações"
+    },
+    "wallets": {
+      "title": "Carteiras"
+    },
+    "roadmap": {
+      "title": "Roadmap"
+    },
+    "faq": {
+      "title": "FAQ"
+    },
+    "exchanges": {
+      "title": "Obter Bolt"
+    },
+    "p2p": {
+      "title": "Solução P2P"
+    },
+    "developers": {
+      "title": "Desenvolvedores"
+    },
+    "contributors": {
+      "title": "Contribuidores"
+    },
+    "blog": {
+      "title": "Blog"
+    },
+    "getBolt": {
+      "title": "Obter Bolt"
+    },
+    "buy": {
+      "title": "Compre Bolt"
+    },
+    "accept": {
+      "title": "Aceite Bolt"
+    },
+    "contrib": {
+      "title": "Contribua"
+    },
+    "startMining": {
+      "title": "Comece a Minerar"
+    },
+    "setMasternode": {
+      "title": "Configure um Masternode"
+    },
+    "setWallet": {
+      "title": "Configure uma Carteira"
+    },
+    "comunnity": {
+      "title": "Comunidade"
+    },
+    "multilang": {
+      "portuguese": "Português",
+      "title1": "Troque o idioma para Português",
+      "english": "English",
+      "title2": "Change to English"
+    }
+  },
+  "banner": {
+    "subtitle": "Uma moeda digital revolucionária!",
+    "tagline": "Instantâneo. Privado. Feito para todos.",
+    "button1": "Baixar Wallet Windows 64bit",
+    "button2": "Ver todos os Downloads"
+  },
+  "about": {
+    "title": "A Comunidade",
+    "paragraph": "A BOLT, tem como principal objetivo, a disrupção, utilizando o Blockchain para viabilizar de forma totalmente descentralizada e globalizada, o acesso de qualquer investidor ou empresa, de forma prática e sem burocracia.",
+    "paragraph1": "Nossa criptomoeda foi desenvolvida a partir do core da Litecoin (LTC) e estamos caminhando para se tornar independente no futuro, com código reescrito e aprimorado. No momento, a Bolt tem algumas soluções como “Envio Instantâneo”, “Envio Privado” e “Lightweight Protocol Network”, que visa manter a sua rede escalável, segura e anti-DDOS.",
+    "title1": "Feito para você",
+    "paragraph2": "Junte-se a nossa comunidade em uma rede P2P descentralizada, os investidores fazem as regras! Incentivamos mineradores POW (Proof of Work) por proteger o BlockChain além dos masternodes para validar, armazenar e servir o blockchain para os usuários, mantendo nossa rede descentralizada e tomando decisões para tornar nossa moeda cadas vez mais forte."
+  },
+  "specifications": {
+    "title": "Distribuição Justa",
+    "paragraph1": "Nossa criptomoeda possui o foco na comunidade dando oportunidade de todos participarem do projeto, por tanto, não realizamos nenhum Premine da moeda, não inflacionamos os blocos iniciais e não realizamos nenhum ICO, queremos uma moeda duradoura e estável.",
+    "options": {
+      "transaction": {
+        "title": "Transações Instantâneas",
+        "description": "Atualmente muito rápido, com blocos de apenas 60 seg e SEM tempo de espera de confirmações."
+      },
+      "fee": {
+        "title": "Micro Taxas",
+        "description": "Pensando no futuro! Com nossa moeda você consegue até comprar aquele cafezinho."
+      },
+      "anon": {
+        "title": "Transações Anônimas",
+        "description": "Extremamente seguro e privado, suas transações são realmente anônimas."
+      }
+    },
+    "mining": {
+      "algorithm": {
+        "title": "Algoritmo",
+        "value": "Blake-256 (14r)"
+      },
+      "maxSupply": {
+        "title": "Fornecimento Máximo",
+        "value": "21M"
+      },
+      "blockTime": {
+        "title": "Tempo do bloco",
+        "value": "1 min."
+      },
+      "miningSystem": {
+        "title": "Sistema de Mineração",
+        "value": "55% PoW e 45% PoS"
+      },
+      "consensus": {
+        "title": "Consensus",
+        "value": "OnChain"
+      },
+      "halving": {
+        "title": "Halving",
+        "value": "a cada 40k é -50% de retorno"
+      }
+    }
+  },
+  "wallets": {
+    "title": "Carteiras",
+    "subtitle": "Sua carteira é o software que você usa para enviar, receber e armazenar a Bolt.",
+    "bannerUrl" : "/assets/img/background-wallet-pt.png",
+    "subtitle1": "É simples de usar e todos os envios são anônimos e seguros.",
+    "subtitle2": "Instalador",
+    "callToText": "Clique aqui e baixe a carteira para Windows!",
+    "callToText1": "Clique aqui e baixe a carteira para Linux!",
+    "callToText2": "Clique aqui e baixe a carteira para Mac!"
+  },
+  "roadmap": {
+    "title": "Roadmap",
+    "subtitle": "Nossos projetos para o futuro!",
+    "subtitle1": "Em breve.",
+
+    "item" : {
+      "title": "White Paper v1.0",
+      "description": "Tudo que você precisa saber sobre a Bolt e a Fundação Bolt.",
+      "release" : "Q1, 2018: Jan - Mar"
+    },
+    "item1" : {
+      "title": "Roadmap detailed",
+      "description": "Em breve lançaremos o roadmap detalhado para todo o ano de 2018, junto com planejamento para entrar em exchanges e outras tecnologias.",
+      "release" : "Q1, 2018: Jan - Mar"
+    },
+    "item2" : {
+      "title": "Paper Wallet",
+      "description": "Lançamento da Paper Wallet official da Bolt.",
+      "release" : "Q1, 2018: Jan - Mar"
+    },
+    "item3" : {
+      "title": "Mining Pool - Official",
+      "description": "Lançamento da Mining Pool oficial da Bolt, com uma fee para ajudar o projeto.",
+      "release" : "Q1, 2018: Jan - Mar"
+    },
+    "item4" : {
+      "title": "Core Wallet 1.0 RC - QT",
+      "description": "Endereços Privados e integração com a rede anônima Tor (opcional)",
+      "release" : "Q2, 2018: Mai - Jul"
+    },
+    "item5" : {
+      "title": "Core Wallet 1.0 - Final Release",
+      "description": "Rebranding da UI da Carteira, nova e desenvolvida usando Angular 2, com novas funcionalidades que a carteira QT não vai ter. A carteira QT vai ser descontinuada.",
+      "release" : "Q2, 2018: Mai - Jul"
+    }
+  },
+  "faq": {
+    "title": "FAQ",
+    "subtitle": "Vamos ajudá-lo a usar a Bolt.",
+    "item": {
+      "title": "Visão Geral",
+      "value": "A Bolt é uma moeda digital multi-plataforma com suporte para Windows, macOS e Linux. Possuindo como principal objetivo, a disrupção, utilizando o Blockchain para viabilizar de forma totalmente descentralizada e globalizada, o acesso de qualquer investidor ou empresa a carteiras fáceis de usar que permitem o envio, recebimento e a mineração da Bolt com apenas alguns cliques. Transformando totalmente a forma que lidamos com dinheiro e possibilitando a inclusão em nosso dia a dia."
+    },
+    "item1": {
+      "title": "O Básico",
+      "paragraph": "Há três formas principais de interagir com a Bolt:",
+      "paragraph1": "A Carteira – Para enviar e receber fundos, bem como para participar como Master Node da Rede.",
+      "paragraph2": "Mineração Proof-of-Work – Utilizando capacidade computacional para validar transações na rede e gerar novos moedas Bolt",
+      "paragraph3": "Mineração Proof-of-Stake – Se tornando Masternode da rede: validando, protegendo, participando ativamente na tomada de decisão junto a comunidade e sendo recompensado gerando novas moedas Bolt",
+      "paragraph4": ""
+    },
+    "item2": {
+      "title": "Sobre as carteiras",
+      "paragraph": "Muito em breve, teremos uma Web Wallet para se tornar ainda mais fácil de começar com a Bolt.",
+      "paragraph1": "Para utilizadores Windows, MacOS e Linux, → Está disponível aqui para download.",
+      "paragraph2": "",
+      "paragraph3": "",
+      "paragraph4": ""
+    },
+    "item3": {
+      "title": "Enviando e Recebendo Bolt",
+      "paragraph": "Um endereço é a única coisa necessária para enviar ou receber fundos. Pode ser facilmente gerado a partir da carteira QT Bolt, Os endereços da BOLT começam sempre com BT",
+      "paragraph1": "Depois de feita a transação, os fundos ficarão disponíveis instantemente com uma taxa fee mínima ou zero.",
+      "paragraph2": "Os exploradores de blocos disponível dentro da carteira QT permitem aos utilizadores a pesquisa de todos os blocos e transações na blockchain da Bolt.",
+      "paragraph3": "",
+      "paragraph4": ""
+    },
+    "item4": {
+      "title": "Mineração",
+      "paragraph": "O termo mineração representa o processo de validar as transações na rede Bolt e mantê-la segura. Como recompensa, os mineradores são compensados com moedas Bolt geradas por encontrar blocos de transações.",
+      "paragraph1": "A Bolt tem dois métodos para validar transações: Proof-of-work (PoW) e Proof-of-stake (PoS).",
+      "paragraph2": "Mineração Proof-of-work",
+      "paragraph3": "Na Mineração Proof-of-work (PoW) as transações são agrupadas em blocos. Esses blocos são validados pelos mineradores PoW. Quando é validado um bloco ele torna-se uma parte permanente da rede Bolt.",
+      "paragraph4": "Pode tornar-se um minerador ao dedicar processamento de computação à rede. Em retorno, os mineradores são recompensados com Bolt.",
+      "paragraph5": "Para eficiência e conveniência pode-se juntar aos pools de mineração. Os pools são grupos de mineradores que partilham o trabalho e dividem a recompensa. Juntar-se e a um pool de mineração é uma forma excelente dos contribuintes menores receberem pagamentos consistentes pelo seu trabalho.",
+      "paragraph6": "Mineração Proof-of-stake Masternodes",
+      "paragraph7": "Ao contrário da mineração PoW, a mineração Proof-of-stake (PoS) requer poucos recursos de computação. O PoS adiciona uma camada extra de descentralização à Bolt e permite que os utilizadores se tornem Masternodes. Para ativar a função, basta obter 1000 BOLT em sua carteira e seguir o → <b>processo de criação</b>, podemos mostrar a força da comunidade Bolt e você participa ativamente das votações para decidirmos futuro da moeda, além de ser recompensado em BOLT pela rede na validação instantânea das transações.",
+      "paragraph8": ""
+    },
+    "item5": {
+      "title": "Compra e venda Bolt",
+      "paragraph": "A Bolt ainda é jovem e, por enquanto, a forma mais fácil de comprar BOLT é com Bitcoin.→ Assim que tiver alguns Bitcoins, estes podem ser trocados por Bolt nas corretoras de moedas digitais.",
+      "paragraph1": "",
+      "paragraph2": "",
+      "paragraph3": "",
+      "paragraph4": ""
+    },
+    "item6": {
+      "title": "Junte-se à comunidade",
+      "paragraph": "Junte-se a nossa comunidade em uma rede P2P descentralizada, onde investidores fazem as regras! Incentivamos mineradores POW (Proof of Work) por proteger o BlockChain além dos masternodes para validar, armazenar e servir o blockchain para os usuários, mantendo nossa rede descentralizada e tomando decisões para tornar nossa moeda cadas vez mais forte. Junte-se à nossa comunidade que cresce cada vez mais, onde se pode ligar programadores e outros utilizadores, obter informações, tirar dúvidas, ou simplesmente conviver. Temos um canal Telegram, e canal Discord onde pode conversar com os programadores e outros utilizadores em tempo real. Não se esqueça do Facebook e Twitter. Mal podemos esperar para nos conhecermos!",
+      "paragraph1": "",
+      "paragraph2": "",
+      "paragraph3": "",
+      "paragraph4": ""
+    },
+    "item7": {
+      "title": "Planos para o futuro",
+      "paragraph": "Em manutenção.",
+      "paragraph1": "",
+      "paragraph2": "",
+      "paragraph3": "",
+      "paragraph4": ""
+    }
+  }
+}
