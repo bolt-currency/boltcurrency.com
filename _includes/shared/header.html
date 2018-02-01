@@ -28,7 +28,7 @@
            <li class="mk-header-logo mobile-menu-exists ">
              <a href="./" title="Bolt Currency">
               <img alt="Bolt Currency" class="mk-dark-logo" src="/assets/img/logo.png" data-retina-src="" />
-              <img alt="Bolt Currency" class="mk-mobile-logo" src="/assets/img/logo-white.png" data-retina-src="" />
+              <img alt="Bolt Currency" class="mk-mobile-logo" src="/assets/img/logo.png" data-retina-src="" />
               <img alt="Bolt Currency" class="mk-light-logo" src="/assets/img/logo-white.png" />
             </a>
           </li>
@@ -48,4 +48,28 @@
      </nav>
   </div>
 </header>
-<div class="responsive-nav-container"></div>
+
+<div class="nav-responsive">
+
+
+  <ul id="menu-home" class="mk-responsive-nav menu-home-mk-responsive-nav" style="display: block;"><li class="responsive-nav-link">
+    <div class="mk-burger-icon">
+              <div class="burger-icon-1"></div>
+              <div class="burger-icon-2"></div>
+              <div class="burger-icon-3"></div>
+    </div>
+
+
+    </li>
+    <li id="menu-item-179" class="menu-item"><a class="menu-item-link" href="#home">{{langPath.nav.home.title | default: defaultLangPath.nav.home.title}}</a></li>
+    <li id="menu-item-185" class="menu-item"><a class="menu-item-link" href="#about">{{langPath.nav.about.title | default: defaultLangPath.nav.about.title}}</a></li>
+    <li id="menu-item-181" class="menu-item"><a class="menu-item-link" href="#specifications">{{langPath.nav.specifications.title | default: defaultLangPath.nav.specifications.title}}</a></li>
+    <li id="menu-item-178" class="menu-item"><a class="menu-item-link" href="#wallets">{{langPath.nav.wallets.title | default: defaultLangPath.nav.wallets.title}}</a></li>
+    <li id="menu-item-183" class="menu-item"><a class="menu-item-link" href="#roadmap">{{langPath.nav.roadmap.title | default: defaultLangPath.nav.roadmap.title}}</a></li>
+    <li id="menu-item-278" class="menu-item"><a class="menu-item-link" href="#faq">{{langPath.nav.faq.title | default: defaultLangPath.nav.faq.title}}</a></li>
+    <!--<li id="menu-item-126" class="menu-item menu-item-type-post_type menu-item-object-page no-mega-menu"><a class="menu-item-link" href="http://bbmoeda.tk/blog/">Blog</a></li>-->
+    
+    {% include shared/multilangdropdown.html %}
+  </ul>
+
+</div>

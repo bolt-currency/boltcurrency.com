@@ -25,6 +25,7 @@
   <link rel="alternate" type="application/rss+xml" title="Feed de comentários para Bolt Currency &raquo;" href="/comments/feed/" />
   <link rel='stylesheet' id='theme-styles-css'  href='/assets/css/styles.min.css' type='text/css' media='all' />
   <link rel='stylesheet' href='/assets/css/custom.css' type='text/css' media='all' />
+  <link rel='stylesheet' href='/assets/css/responsive.css' type='text/css' media='all' />
   <link rel='stylesheet' id='theme-icons-css'  href='/assets/css/theme-font-icons.min.css' type='text/css' media='all' />
   <link rel='stylesheet' id='wpml-legacy-horizontal-list-0-css'  href='/assets/css/legacy-list-horizontal.css' type='text/css' media='all' />
   <style id='wpml-legacy-horizontal-list-0-inline-css' type='text/css'>
@@ -100,7 +101,7 @@
            <li class="mk-header-logo mobile-menu-exists ">
              <a href="./" title="Bolt Currency">
               <img alt="Bolt Currency" class="mk-dark-logo" src="/assets/img/logo.png" data-retina-src="" />
-              <img alt="Bolt Currency" class="mk-mobile-logo" src="/assets/img/logo-white.png" data-retina-src="" />
+              <img alt="Bolt Currency" class="mk-mobile-logo" src="/assets/img/logo.png" data-retina-src="" />
               <img alt="Bolt Currency" class="mk-light-logo" src="/assets/img/logo-white.png" />
             </a>
           </li>
@@ -138,7 +139,49 @@
      </nav>
   </div>
 </header>
-<div class="responsive-nav-container"></div>
+
+<div class="nav-responsive">
+
+
+  <ul id="menu-home" class="mk-responsive-nav menu-home-mk-responsive-nav" style="display: block;"><li class="responsive-nav-link">
+    <div class="mk-burger-icon">
+              <div class="burger-icon-1"></div>
+              <div class="burger-icon-2"></div>
+              <div class="burger-icon-3"></div>
+    </div>
+
+
+    </li>
+    <li id="menu-item-179" class="menu-item"><a class="menu-item-link" href="#home">Início</a></li>
+    <li id="menu-item-185" class="menu-item"><a class="menu-item-link" href="#about">Sobre</a></li>
+    <li id="menu-item-181" class="menu-item"><a class="menu-item-link" href="#specifications">Especificações</a></li>
+    <li id="menu-item-178" class="menu-item"><a class="menu-item-link" href="#wallets">Carteiras</a></li>
+    <li id="menu-item-183" class="menu-item"><a class="menu-item-link" href="#roadmap">Roadmap</a></li>
+    <li id="menu-item-278" class="menu-item"><a class="menu-item-link" href="#faq">FAQ</a></li>
+    <!--<li id="menu-item-126" class="menu-item menu-item-type-post_type menu-item-object-page no-mega-menu"><a class="menu-item-link" href="http://bbmoeda.tk/blog/">Blog</a></li>-->
+    
+    <li class="mk-header-wpml-ls">
+  <a class="header-wpml-icon" href="#">
+  <i class="mk-icon-globe"></i>
+  </a>
+
+
+  <ul class="language-selector-box">
+      <li class='language_pt-br'>
+        <a href='/pt/' title="Troque o idioma para Português">			
+            <span class='mk-lang-name'>Português</span>		
+        </a>
+      </li>
+      <li class='language_en'>
+        <a href='/' title="Change to English">			
+            <span class='mk-lang-name'>English</span>		
+        </a>
+      </li>
+  </ul>
+</li>
+  </ul>
+
+</div>
 
 
 <section id="banner" class="banner">    
@@ -1218,6 +1261,12 @@ jQuery('.language-selector-box').fadeIn();
 
 jQuery('.mk-header-wpml-ls').on('mouseleave', function(){
 jQuery('.language-selector-box').fadeOut();
+});
+
+jQuery(function(){
+    jQuery('.responsive-nav-link').on('click', function(){
+        jQuery('.nav-responsive').slideToggle();;
+    });
 });
 </script>
 

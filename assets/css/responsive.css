@@ -1,0 +1,25 @@
+.nav-responsive{
+    display: none;
+    position: absolute;
+    width: 100%;
+}
+
+@media all and (max-width: 480px){
+    body .theme-main-wrapper:not(.vertical-header) #mk-header.transparent-header.light-header-skin, .theme-main-wrapper:not(.vertical-header) #mk-header.transparent-header.dark-header-skin{
+        background-color: #fff !important;
+    }
+
+    .mk-header-wpml-ls a i {
+        color: #525252 !important;
+    }
+    #banner-internal {
+        margin-top: 0 !important;
+        margin-bottom: 128px !important;
+
+    }
+
+    .nav-responsive, .mk-responsive-nav {
+        background-color: #191919;
+    }
+   
+}
