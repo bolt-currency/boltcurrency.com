@@ -136,7 +136,7 @@
   },
   "wallets": {
     "title": "Wallets",
-    "bannerUrl" : "/assets/img/background-wallet.png",
+    "bannerUrl": "/assets/img/background-wallet.png",
     "subtitle": "Your wallet is the software you use to send, receive, and store Bolt.",
     "subtitle1": "It is simple to use and all submissions are anonymous and secure.",
     "subtitle2": "Installer",
@@ -146,43 +146,42 @@
   },
   "roadmap": {
     "title": "Roadmap",
-    "subtitle": "Our projects to the future!",
+    "subtitle": "Our Projects For The Future!",
     "subtitle1": "Coming Soon.",
-
-    "item" : {
+    "item": {
       "title": "White Paper v1.0",
-      "description": "Everything you need to know about Bolt and Bolt Foundation.",
-      "release" : "Q1, 2018: Jan - Mar"
+      "description": "Everything you need to know about Bolt and the Bolt Foundation.",
+      "release": "Q1, 2018: Jan - Mar"
     },
-    "item1" : {
+    "item1": {
       "title": "Roadmap detailed",
       "description": "We will soon be launching the detailed 2018 year-round roadmap, along with turn-key planning and other technologies.",
-      "release" : "Q1, 2018: Jan - Mar"
+      "release": "Q1, 2018: Jan - Mar"
     },
-    "item2" : {
+    "item2": {
       "title": "Paper Wallet",
       "description": "Launch of Bolt's Official Paper Wallet. Store your Bolts safely anywhere.",
-      "release" : "Q1, 2018: Jan - Mar"
+      "release": "Q1, 2018: Jan - Mar"
     },
-    "item3" : {
+    "item3": {
       "title": "Mining Pool - Official",
       "description": "Launch of Bolt's official Mining Pool, with a fee to support the project.",
-      "release" : "Q1, 2018: Jan - Mar"
+      "release": "Q1, 2018: Jan - Mar"
     },
-    "item4" : {
+    "item4": {
       "title": "Core Wallet 1.0 RC - QT",
       "description": "Private Addressing and Tor intergration (optional)",
-      "release" : "Q2, 2018: May - Jul"
+      "release": "Q2, 2018: May - Jul"
     },
-    "item5" : {
+    "item5": {
       "title": "Core Wallet 1.0 - Final Release",
-      "description": "Fully Rebranding of the Wallet UI, new and developed using Angular 2, with new features that the Wallet QT will not have. The Wallet QT will be discontinued.",
-      "release" : "Q2, 2018: May - Jul"
+      "description": "Full Rebrand of the Wallet UI, new and developed using Angular 2, with new features that the Wallet QT will not have. The Wallet QT will be discontinued.",
+      "release": "Q2, 2018: May - Jul"
     }
   },
   "faq": {
     "title": "FAQ",
-    "subtitle": "Let's help you how to use BOLT",
+    "subtitle": "Helping You Use BOLT",
     "item": {
       "title": "Overview",
       "value": "Bolt is a multi-platform digital currency with wallets available for Windows, MacOS, and Linux. Its main goal is the disruption, using the Blockchain to make the access to investors or any company much easier, allowing anyone to send, receive, and mine with just a few clicks, changing how we use our money in a daily basis."
