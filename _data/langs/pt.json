@@ -43,6 +43,9 @@
     "getBolt": {
       "title": "Obter Bolt"
     },
+    "download": {
+      "title": "Baixar Carteiras"
+    },
     "buy": {
       "title": "Compre Bolt"
     },
@@ -63,6 +66,9 @@
     },
     "comunnity": {
       "title": "Comunidade"
+    },
+    "branding": {
+      "title": "Guia da Marca"
     },
     "multilang": {
       "portuguese": "Português",
@@ -192,7 +198,7 @@
     "item2": {
       "title": "Sobre as carteiras",
       "paragraph": "Muito em breve, teremos uma Web Wallet para se tornar ainda mais fácil de começar com a Bolt.",
-      "paragraph1": "Para utilizadores Windows, MacOS e Linux, → Está disponível aqui para download.",
+      "paragraph1": "Para utilizadores Windows, MacOS e Linux, → Está disponível aqui para <a href='#wallets' class='menu-item-link'>download</a>.",
       "paragraph2": "",
       "paragraph3": "",
       "paragraph4": ""

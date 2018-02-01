@@ -43,6 +43,9 @@
     "getBolt": {
       "title": "Get Bolt"
     },
+    "download": {
+      "title": "Download Wallets"
+    },
     "buy": {
       "title": "Buy Bolt"
     },
@@ -63,6 +66,9 @@
     },
     "comunnity": {
       "title": "Community"
+    },
+    "branding": {
+      "title": "Branding"
     },
     "multilang": {
       "portuguese": "Português",
@@ -192,7 +198,7 @@
     "item2": {
       "title": "The Wallets",
       "paragraph": "A new Web Wallet is coming soon, making your life easier.",
-      "paragraph1": "Wallets for Windows, MacOS and Linux → Available here for download.",
+      "paragraph1": "Wallets for Windows, MacOS and Linux → Available here for <a href='#wallets' class='menu-item-link'>download</a>.",
       "paragraph2": "",
       "paragraph3": "",
       "paragraph4": ""
